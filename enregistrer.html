@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Maman.css">
+    <title>Formulaire d'enregistrement</title>
+  </head>
+  <body>
+    <header style="background-image: url('parking.jpg');">
+      <h1>Mon site de parking</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="tarifs.html">Tarifs</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Formulaire d'enregistrement</h1>
+    <form action="enregistrer.php" method="post">
+      <label for="identifiant">Identifiant :</label>
+      <input type="text" id="identifiant" name="identifiant"><br>
+      <label for="mot_de_passe">Mot de passe :</label>
+      <input type="password" id="mot_de_passe" name="mot_de_passe"><br>
+      <input type="submit" value="Enregistrer">
+    </form>
+    <footer>
+      <div>
+        <h3>Contact</h3>
+        <p>Téléphone : +212 600696925</p>
+      </div>
+    </footer>
+  </body>
+</html>

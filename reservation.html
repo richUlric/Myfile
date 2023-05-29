@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="Adapt.css">
+    <link rel="stylesheet" type="text/css" href="Maman.css">
+    <title>Réservation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header style="background-image: url('parking.jpg');">
+      <h1>Mon site de parking</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="tarifs.html">Tarifs</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Réservation</h1>
+    <form action="reservation.php" method="POST">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">E-mail :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="heure">Heure :</label>
+      <input type="time" id="heure" name="heure" required>
+
+      <input type="submit" value="Réserver">
+    </form>
+    <footer>
+      <div>
+        <h3>Contact</h3>
+        <p>Téléphone : +212 600696925</p>
+      </div>
+    </footer>
+  </body>
+</html>

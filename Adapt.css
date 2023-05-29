@@ -1,0 +1,26 @@
+/* Styles pour les écrans de taille maximale de 768 pixels (téléphones mobiles) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        margin: 50px auto;
+        padding: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 5px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .input {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
